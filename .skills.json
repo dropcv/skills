@@ -1,0 +1,140 @@
+{
+  "schema_version": "1",
+  "skills": [
+    {
+      "key": "candidate_delete",
+      "name": "candidate-delete",
+      "display_name": "候选人删除",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-delete/SKILL.md",
+      "requires_write_scope": true
+    },
+    {
+      "key": "candidate_list",
+      "name": "candidate-list",
+      "display_name": "人才库列表 / 关键词查询",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-list/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "candidate_note_add",
+      "name": "candidate-note-add",
+      "display_name": "候选人笔记追加",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-note-add/SKILL.md",
+      "requires_write_scope": true
+    },
+    {
+      "key": "candidate_profile_read",
+      "name": "candidate-profile-read",
+      "display_name": "候选人档案读取",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-profile-read/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "candidate_search",
+      "name": "candidate-search",
+      "display_name": "人才库搜索",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-search/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "candidate_tag_add",
+      "name": "candidate-tag-add",
+      "display_name": "候选人标签追加",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-tag-add/SKILL.md",
+      "requires_write_scope": true
+    },
+    {
+      "key": "candidate_update",
+      "name": "candidate-update",
+      "display_name": "候选人 partial update",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/candidate-update/SKILL.md",
+      "requires_write_scope": true
+    },
+    {
+      "key": "jd_parse",
+      "name": "jd-parse",
+      "display_name": "JD 结构化解析",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/jd-parse/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "save_candidate",
+      "name": "save-candidate",
+      "display_name": "候选人入库",
+      "kind": "tool",
+      "version": "1.0.0",
+      "path": "skills/save-candidate/SKILL.md",
+      "requires_write_scope": true
+    },
+    {
+      "key": "candidate-compare",
+      "name": "candidate-compare",
+      "display_name": "候选人对比",
+      "kind": "prompt",
+      "version": "1.0.0",
+      "path": "skills/candidate-compare/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "candidate-match-analyze",
+      "name": "candidate-match-analyze",
+      "display_name": "候选人匹配分析",
+      "kind": "prompt",
+      "version": "1.0.0",
+      "path": "skills/candidate-match-analyze/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "communication-strategy",
+      "name": "communication-strategy",
+      "display_name": "候选人沟通策略",
+      "kind": "prompt",
+      "version": "1.0.0",
+      "path": "skills/communication-strategy/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "dropcv-setup",
+      "name": "dropcv-setup",
+      "display_name": "接入 DropCV",
+      "kind": "setup",
+      "version": "1.0.0",
+      "path": "skills/dropcv-setup/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "interview-question-generate",
+      "name": "interview-question-generate",
+      "display_name": "面试题生成",
+      "kind": "prompt",
+      "version": "1.0.0",
+      "path": "skills/interview-question-generate/SKILL.md",
+      "requires_write_scope": false
+    },
+    {
+      "key": "recommendation-generate",
+      "name": "recommendation-generate",
+      "display_name": "候选人推荐语",
+      "kind": "prompt",
+      "version": "1.0.0",
+      "path": "skills/recommendation-generate/SKILL.md",
+      "requires_write_scope": false
+    }
+  ]
+}
